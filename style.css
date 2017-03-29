@@ -1,0 +1,152 @@
+body {
+        background-color: white;
+        font-family: arial; sans-serif;
+}
+
+.header {
+            background-color: #f5f5f5;
+            height: 60px;
+            
+}
+
+.header a   { color: black;}
+.footer a   {color: gray;}
+a:link    {  text-decoration:none}
+a:visited { text-decoration:none}
+a:hover   {  text-decoration:underline}
+a:active  {  text-decoration:underline}
+
+
+.avatar {
+            border-radius: 50%;
+            margin-top: -5px;
+}
+
+.nav-text {
+            color: rgb(64, 64, 64);
+            font-size: 13px;
+            line-height: 24px;
+}
+
+
+.navsearch {
+            background-color: #f5f5f5;
+            margin-top: -2px;
+            height: 60px;
+            float: left;
+            position: relative;
+            white-space: nowrap;
+            align-items: baseline;
+            display: flex;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            min-width: 782px;
+            border-bottom-color: #888;
+            border-bottom-width: 1px;
+}
+
+.navsearch ul {
+                display: inline-block;
+                margin-top: 30px;
+                margin-left: 110px;
+                alignment-baseline: baseline;
+                
+}
+
+.navsearch ul li {
+            font-family: arial;
+            line-height: 15px;
+            font-size: 13px;
+            padding: 0px 8px;
+            list-style: none;
+            float: left;
+}
+
+.header ul li {
+            font-family: arial, sans-serif;
+            
+            list-style-type: none;
+            float: right;
+            margin-top: -20px;
+            padding: 8px;
+            display: block;
+            
+            
+}
+.center {
+            min-width: 400px;
+            min-height: 470px;
+            padding-top: 75px;
+}
+
+
+
+#Logo {
+            display: block;
+            margin: 0 auto;
+            
+}
+
+#Google {
+            float: left;
+            margin: 10px 2px 0px 0px;
+            
+}
+
+#search {
+            margin: 10px 20px;
+            height: 35px;
+            width: 500px;
+            float: left;
+}
+
+
+.btn {
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: #757575;
+        text-align: center;
+        width: 140px;
+        height: 36px;
+        padding: 5px;
+        margin-top: 15px;
+        margin-right: 10px;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+}
+
+.btn:hover {
+            border-color: #999999
+}
+
+
+.results {
+            position: relative;
+            min-height: 250px;
+}
+
+.footer {
+            background-color: #EEE;
+            height: 55px;
+}
+
+.left  {
+                float: left;
+                list-style: none;
+                padding; 0px;
+                display: block;
+                margin: 20px 20px 0 0;
+}
+
+
+
+
+.right {
+        float: right;
+        list-style: none;
+        padding; 0px;
+        display: block;
+        margin: 20px 20px 0 0;
+}
